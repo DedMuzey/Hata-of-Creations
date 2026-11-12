@@ -363,3 +363,43 @@ body.motion-off .reveal{opacity:1!important;transform:none!important}
   .gmail-compose-button{min-height:34px;}
   .contact-email-row>.copy-icon-button{margin-top:23px;width:34px;height:34px;}
 }
+
+
+/* SandMode showcase: original gameplay cover, extended description and screenshot gallery. */
+.game-projects{grid-template-columns:minmax(0,1fr);align-items:stretch;gap:18px;}
+.sandmode-feature{position:relative;display:flex;flex-direction:column;min-width:0;overflow:hidden;border:1px solid rgba(211,255,117,.2);border-radius:28px;background:linear-gradient(145deg,rgba(23,23,34,.98),rgba(13,13,20,.98));box-shadow:0 24px 70px rgba(0,0,0,.2),inset 0 1px 0 rgba(255,255,255,.035);}
+.sandmode-cover{position:relative;overflow:hidden;background:#10101a;border-bottom:1px solid rgba(255,255,255,.11);}
+.sandmode-cover:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(7,7,13,.28),transparent 48%);pointer-events:none;}
+.sandmode-cover img{display:block;width:100%;height:auto;aspect-ratio:1800/760;object-fit:cover;object-position:center;}
+.sandmode-cover-note{-webkit-user-select:none;user-select:none;position:absolute;z-index:1;right:clamp(16px,3vw,34px);bottom:clamp(14px,2.5vw,26px);left:clamp(16px,3vw,34px);display:flex;justify-content:space-between;gap:15px;color:rgba(246,245,255,.76);font-size:9px;font-weight:850;letter-spacing:.15em;text-transform:uppercase;text-shadow:0 2px 10px rgba(0,0,0,.8);}
+.sandmode-feature-body{padding:clamp(23px,4vw,42px) clamp(22px,4vw,44px) 30px;}
+.sandmode-heading-row{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;}
+.sandmode-edition{color:#bbb7cb;font-size:10px;font-weight:750;letter-spacing:.04em;}
+.sandmode-feature h4{margin:18px 0 10px;font-size:clamp(32px,4vw,47px);font-weight:850;line-height:1.04;letter-spacing:-.065em;}
+.sandmode-lead{max-width:1020px;margin:0;color:#ebe9f3;font-size:clamp(14px,1.45vw,17px);line-height:1.8;}
+.sandmode-description-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(22px,4vw,52px);margin-top:18px;}
+.sandmode-description-grid p{margin:0 0 12px;color:var(--muted);font-size:12px;line-height:1.85;}
+.sandmode-motto{color:var(--lime)!important;font-size:15px!important;font-weight:850;letter-spacing:-.02em;}
+.sandmode-activities{margin-top:16px;padding:20px 21px;border:1px solid rgba(211,255,117,.15);border-radius:19px;background:linear-gradient(120deg,rgba(211,255,117,.055),rgba(164,147,255,.045));}
+.sandmode-subheading{display:block;color:var(--lime);font-size:9px;font-weight:900;letter-spacing:.16em;}
+.sandmode-activity-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px 12px;margin-top:14px;}
+.sandmode-activity-grid span{position:relative;min-width:0;padding-left:15px;color:#e1deeb;font-size:11px;font-weight:650;line-height:1.5;}
+.sandmode-activity-grid span:before{content:"";position:absolute;top:.55em;left:0;width:6px;height:6px;border-radius:50%;background:var(--lime);box-shadow:0 0 10px rgba(211,255,117,.3);}
+.sandmode-feature-footer{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:22px;}
+.sandmode-feature-footer .game-project-meta{gap:7px;}
+.sandmode-feature-footer .game-project-meta span{background:rgba(255,255,255,.025);}
+.sandmode-gallery-block{padding:26px clamp(22px,4vw,44px) clamp(25px,4vw,40px);border-top:1px solid rgba(255,255,255,.085);background:rgba(255,255,255,.012);}
+.sandmode-gallery-heading{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:16px;}
+.sandmode-gallery-heading h5{margin:7px 0 0;font-size:20px;letter-spacing:-.04em;}
+.sandmode-gallery-heading p{max-width:320px;margin:0;color:var(--muted);font-size:10px;line-height:1.65;text-align:right;}
+.sandmode-gallery{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:11px;}
+.sandmode-gallery figure{min-width:0;margin:0;overflow:hidden;border:1px solid rgba(255,255,255,.11);border-radius:13px;background:#101018;transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease;}
+.sandmode-gallery figure:hover{transform:translateY(-4px);border-color:rgba(211,255,117,.4);box-shadow:0 12px 25px rgba(0,0,0,.2);}
+.sandmode-gallery img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;background:#09090e;}
+.sandmode-gallery figcaption{padding:9px 10px 10px;color:#d9d6e5;font-size:9px;font-weight:750;line-height:1.4;}
+.game-projects>.game-project:not(.sandmode-feature){min-height:185px;align-items:center;padding:25px 30px;}
+.game-projects>.game-project:not(.sandmode-feature) .game-project-content{max-width:850px;}
+@media(max-width:920px){.sandmode-gallery{grid-template-columns:repeat(3,minmax(0,1fr));}.sandmode-description-grid{gap:22px;}}
+@media(max-width:700px){.sandmode-cover img{aspect-ratio:16/9;object-position:center;}.sandmode-cover-note{font-size:8px;letter-spacing:.09em;}.sandmode-feature-body{padding:23px 20px 25px;}.sandmode-description-grid{grid-template-columns:1fr;gap:0;margin-top:14px;}.sandmode-activity-grid{grid-template-columns:repeat(2,minmax(0,1fr));}.sandmode-gallery-block{padding:22px 20px 25px;}.sandmode-gallery-heading{display:block;}.sandmode-gallery-heading p{margin-top:7px;text-align:left;}.sandmode-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;}.game-projects>.game-project:not(.sandmode-feature){align-items:flex-start;padding:22px 20px;}}
+@media(max-width:420px){.sandmode-heading-row{align-items:flex-start;flex-direction:column;gap:9px;}.sandmode-cover-note{bottom:10px;}.sandmode-activity-grid{gap:8px 9px;}.sandmode-activity-grid span{font-size:10px;}.sandmode-feature-footer{align-items:flex-start;flex-direction:column;}.sandmode-gallery figcaption{font-size:8px;padding:8px;}}
+@media(prefers-reduced-motion:reduce){.sandmode-gallery figure{transition:none;}}
