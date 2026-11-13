@@ -34,3 +34,12 @@ Email contact controls update: address pills have project colors, Gmail compose 
 - Добавлена галерея из пяти оптимизированных игровых скриншотов.
 - Сохранены исходная ссылка скачивания, контакты, Ded Clicker и Crystal Collector 3D.
 - Новые изображения находятся в `assets/sandmode/`.
+
+
+## Обновление Ded Clicker
+
+- Скриншоты Ded Clicker заменены на три локальных изображения: аккаунт игрока, управление банком и открытие сундука.
+- Изображения отображаются в обложке и галерее; при нажатии открывается оригинальный файл.
+- Скриншоты хранятся в `assets/dedclicker/screenshots/`, поэтому для их показа не нужны внешние ссылки Google Drive.
+
+Game icons: `assets/game-icons/dedclicker.png` (Ded Clicker) and `assets/game-icons/sandmode.png` (SandMode). Screenshot galleries remain in their original folders.

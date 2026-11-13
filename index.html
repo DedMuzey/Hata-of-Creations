@@ -10,14 +10,17 @@
 
 
 <link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 </head>
 <body>
 <div class="scroll-progress" id="scrollProgress" aria-hidden="true"><span></span></div>
 <a class="skip" href="#main">Перейти к содержимому</a>
 <header class="topbar">
 <div class="wrap nav">
-<a aria-label="Hata of Creations — на главную" class="brand" href="#home">
-<img alt="Бутылка Русский Стандарт — изображение бренда" class="brand-bottle" src="data:image/jpeg;base64,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"/><span class="brand-copy"><span class="brand-title">Hata of Creations</span><small>Идеи. Код. Реальность.</small></span>
+<a aria-label="Hata of Creations — главная страница" class="brand" href="#home">
+<img alt="" class="brand-bottle" width="48" height="48" src="data:image/jpeg;base64,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"/><span class="brand-copy"><span class="brand-title">Hata of Creations</span><small>Идеи. Код. Реальность.</small></span>
 </a>
 <nav aria-label="Основная навигация" class="navlinks" id="navlinks">
 <a class="active" href="#home">Главная</a><a href="#services">Услуги</a><a href="#projects">Проекты</a><a href="#addons">Дополнения</a><a href="#about">О нас</a><a href="#faq">FAQ</a><a href="#contact">Контакты</a>
@@ -63,9 +66,14 @@
 </article>
 <div aria-label="Игры студии" class="more-projects game-projects">
 <article class="sandmode-feature reveal" aria-labelledby="sandmode-title">
-  <div class="sandmode-cover">
-    <img src="assets/sandmode/sandmode-cover.jpg" alt="Обложка SandMode с игровыми скриншотами городской карты, паркура, зимнего режима и выбора персонажа" loading="lazy" decoding="async" width="1800" height="760">
-    <div class="sandmode-cover-note"><span>GAMEPLAY SHOWCASE</span></div>
+  <div class="sandmode-cover sandmode-icon-cover" aria-label="Иконка игры SandMode">
+    <div class="sandmode-cover-copy">
+      <span>HATA OF CREATIONS · ONLINE SANDBOX</span>
+      <strong>SandMode</strong>
+      <span>Твои правила. Твой хаос.</span>
+    </div>
+    <img class="sandmode-cover-icon" src="assets/game-icons/sandmode.png" alt="Иконка SandMode" loading="eager" decoding="async" width="1024" height="1024">
+    <div class="sandmode-cover-note"><span>GAME ICON</span></div>
   </div>
   <div class="sandmode-feature-body">
     <div class="sandmode-heading-row">
@@ -125,15 +133,96 @@
     </div>
   </div>
 </article>
-<article class="mini-project game-project reveal">
-<div class="game-project-content">
-<div class="game-project-topline"><span class="project-tag">Android · Порт</span><span class="game-status game-status-ready">Версия 1.0.0.0b</span></div>
-<h4>Ded Clicker</h4>
-<p>Порт Ded Clicker для Android. Версия 1.0.0.0b.</p>
-<div class="game-project-meta"><span>Версия 1.0.0.0b</span><span>Android</span></div>
-<a class="button ghost game-download" href="https://www.rustore.ru/catalog/app/com.dedclicker.game" rel="noopener noreferrer" target="_blank">Скачать Ded Clicker <span aria-hidden="true">↗</span></a>
-</div>
-<span aria-hidden="true" class="mini-mark">✳</span>
+<article class="dedclicker-feature reveal" aria-labelledby="dedclicker-title">
+  <div class="dedclicker-cover dedclicker-icon-cover" aria-label="Иконка игры Ded Clicker">
+    <div class="dedclicker-cover-copy">
+      <span class="dedclicker-cover-kicker">HATA OF CREATIONS · 2D CLICKER</span>
+      <strong>Ded Clicker</strong>
+      <span>Кликай. Зарабатывай. Прокачивайся.</span>
+    </div>
+    <img class="dedclicker-cover-icon" src="assets/game-icons/dedclicker.png" alt="Иконка Ded Clicker" loading="eager" decoding="async" width="512" height="512">
+    <span class="dedclicker-cover-index">GAME ICON · 2026</span>
+  </div><div class="dedclicker-feature-body">
+    <div class="dedclicker-heading-row">
+      <div class="game-project-topline">
+        <span class="project-tag">2D-кликер · развитие аккаунта</span>
+        <span class="game-status game-status-ready">Доступна на Android</span>
+      </div>
+      <span class="dedclicker-edition">Версия 1.0.0.1b</span>
+    </div>
+    <h4 id="dedclicker-title">Ded Clicker</h4>
+    <p class="dedclicker-lead">Ded Clicker — это 2D-кликер, в котором ты зарабатываешь игровую валюту, развиваешь свой аккаунт и открываешь новые возможности.</p>
+
+    <div class="dedclicker-description-grid">
+      <div>
+        <p>Начни свой путь с обычных кликов, зарабатывай деньги, собирай рубины и постепенно прокачивай свой уровень. Чем дальше ты продвигаешься, тем больше возможностей становится доступно.</p>
+        <p>В игре важную роль играют задания и награды. Выполняй различные поручения, достигай поставленных целей, открывай сундуки и получай дополнительные деньги, рубины и опыт.</p>
+      </div>
+      <div>
+        <p>Используй внутриигровой магазин, приобретай косметические предметы и фоны, чтобы менять внешний вид игры. Развивай свой аккаунт и открывай доступные улучшения.</p>
+        <p>В игре также присутствует банковская система: можно создать собственный банк и работать с игровыми акциями, покупая и продавая их.</p>
+        <p>Ded Clicker продолжает развиваться: появляются исправления, улучшения и новые возможности.</p>
+      </div>
+    </div>
+
+    <div class="dedclicker-activities">
+      <div class="dedclicker-subheading">ЧТО ТЫ БУДЕШЬ ДЕЛАТЬ?</div>
+      <div class="dedclicker-activity-grid">
+        <span>Зарабатывать игровую валюту</span>
+        <span>Собирать рубины</span>
+        <span>Прокачивать свой уровень</span>
+        <span>Выполнять игровые задания</span>
+        <span>Открывать сундуки с наградами</span>
+        <span>Покупать предметы в магазине</span>
+        <span>Открывать косметику и новые фоны</span>
+        <span>Создавать собственный банк</span>
+        <span>Покупать и продавать игровые акции</span>
+        <span>Развивать аккаунт и достигать новых целей</span>
+      </div>
+    </div>
+
+    <div class="dedclicker-motto">Ded Clicker — кликай, зарабатывай, прокачивайся!</div>
+    <div class="dedclicker-feature-footer">
+      <div class="game-project-meta">
+        <span>2D-кликер</span>
+        <span>Задания и награды</span>
+        <span>Магазин и косметика</span>
+        <span>Банковская система</span>
+        <span>Android · 1.0.0.1b</span>
+      </div>
+      <a class="button ghost game-download" href="https://www.rustore.ru/catalog/app/com.dedclicker.game" rel="noopener noreferrer" target="_blank">Скачать Ded Clicker <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+
+  <div class="dedclicker-gallery-block">
+    <div class="dedclicker-gallery-heading">
+      <div><span class="dedclicker-subheading">ВНУТРИ ИГРЫ</span><h5>Скриншоты Ded Clicker</h5></div>
+      <p>Посмотри на игровой процесс и возможности Ded Clicker.</p>
+    </div>
+    <div class="dedclicker-gallery">
+      <figure>
+        <a href="assets/dedclicker/screenshots/dedclicker-01-account.png" target="_blank" rel="noopener noreferrer" aria-label="Открыть первый скриншот Ded Clicker">
+          <img src="assets/dedclicker/screenshots/dedclicker-01-account.png" alt="Аккаунт игрока в Ded Clicker" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+          <span class="dedclicker-image-fallback" hidden>Скриншот недоступен · открыть оригинал ↗</span>
+        </a>
+        <figcaption>Аккаунт игрока · профиль и достижения</figcaption>
+      </figure>
+      <figure>
+        <a href="assets/dedclicker/screenshots/dedclicker-02-bank.png" target="_blank" rel="noopener noreferrer" aria-label="Открыть второй скриншот Ded Clicker">
+          <img src="assets/dedclicker/screenshots/dedclicker-02-bank.png" alt="Банк и криптовалюты в Ded Clicker" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+          <span class="dedclicker-image-fallback" hidden>Скриншот недоступен · открыть оригинал ↗</span>
+        </a>
+        <figcaption>Банк · управление бизнесом и криптовалюты</figcaption>
+      </figure>
+      <figure>
+        <a href="assets/dedclicker/screenshots/dedclicker-03-chest.png" target="_blank" rel="noopener noreferrer" aria-label="Открыть третий скриншот Ded Clicker">
+          <img src="assets/dedclicker/screenshots/dedclicker-03-chest.png" alt="Получение награды из сундука Ded Clicker" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+          <span class="dedclicker-image-fallback" hidden>Скриншот недоступен · открыть оригинал ↗</span>
+        </a>
+        <figcaption>Сундук · получение наград</figcaption>
+      </figure>
+    </div>
+  </div>
 </article>
 </div>
 <section class="crystal-promo reveal" aria-labelledby="crystal-promo-title">
@@ -148,11 +237,11 @@
     <span class="crystal-promo-chip">3 мира · 48 лабиринтов</span>
   </div>
 
-  <div class="crystal-release" aria-label="Запланированная дата выхода Crystal Collector 3D — 29 декабря 2026 года">
+  <div class="crystal-release" aria-label="Запланированная дата выхода Crystal Collector 3D — 29 декабря 2026 года в 17:00 по московскому времени">
     <div class="crystal-release-calendar" aria-hidden="true"><span>ДЕК</span><b>29</b></div>
     <div class="crystal-release-copy">
       <span class="crystal-release-label">ЗАПЛАНИРОВАННЫЙ РЕЛИЗ</span>
-      <strong><time datetime="2026-12-29">29 декабря 2026 года</time></strong>
+      <strong><time datetime="2026-12-29">29 декабря 2026 года, 17:00 МСК</time></strong>
       <span class="crystal-release-note">Приготовься отправиться на поиски древних кристаллов</span>
     </div>
     <span class="crystal-release-star" aria-hidden="true">✦</span>
@@ -224,14 +313,14 @@
     </div>
     <h3 id="facets-title">Грани Кристалиса</h3>
     <p class="addon-lead">Привычные лабиринты останутся позади. В этом дополнении появятся совершенно новые уровни, построенные на разных геометрических формах.</p>
-    <p>Пробирайся по треугольным коридорам, исследуй круглые и овальные маршруты, находи путь в прямоугольных и пятиугольных лабиринтах — и возвращайся к квадратным испытаниям с новой тактикой.</p>
+    <p>Пробирайся по треугольным коридорам, исследуй круглые, овальные, прямоугольные, пятиугольные и квадратные лабиринты. А ещё попробуй особые уровни «Пончик» и «Портал».</p>
     <div class="addon-highlights" aria-label="Особенности дополнения">
      <span>Новые разнообразные уровни</span>
-     <span>Шесть форм лабиринтов</span>
+     <span>Шесть форм и два особых уровня</span>
      <span>Новые маршруты к кристаллам</span>
     </div>
    </div>
-   <div class="addon-visual" aria-label="Шесть геометрических форм новых уровней">
+   <div class="addon-visual" aria-label="Формы и особые уровни дополнения Грани Кристалиса">
     <div class="addon-visual-top">
      <span>ГЕОМЕТРИЯ НОВЫХ МИРОВ</span>
      <span aria-hidden="true">✦</span>
@@ -243,10 +332,13 @@
      <div class="addon-shape-tile"><span class="addon-shape-token shape-rectangle"></span><span>Прямоугольные</span></div>
      <div class="addon-shape-tile"><span class="addon-shape-token shape-pentagon"></span><span>Пятиугольные</span></div>
      <div class="addon-shape-tile"><span class="addon-shape-token shape-square"></span><span>Квадратные</span></div>
+     <div class="addon-shape-tile"><span class="addon-shape-token shape-donut-token" aria-hidden="true"></span><span>Пончик</span></div>
+     <div class="addon-shape-tile"><span class="addon-shape-token shape-portal-token" aria-hidden="true"><i></i></span><span>Портал</span></div>
     </div>
     <div class="addon-visual-caption"><span class="addon-caption-dot"></span>Каждая форма — новый путь к кристаллу</div>
    </div>
   </article>
+
  </div>
 </section>
 
@@ -265,15 +357,15 @@
     <div class="faq-list reveal">
       <details class="faq-item">
         <summary><span>Когда запланирован выход Crystal Collector 3D?</span><i aria-hidden="true">+</i></summary>
-        <div class="faq-answer"><p>На сайте указана планируемая дата выхода — <strong>29 декабря 2026 года</strong>. Обратный отсчёт в карточке игры показывает время до этой даты.</p></div>
+        <div class="faq-answer"><p>На сайте указана планируемая дата выхода — <strong>29 декабря 2026 года в 17:00 по московскому времени (МСК)</strong>. Обратный отсчёт показывает единое время релиза для всех посетителей.</p></div>
       </details>
       <details class="faq-item">
         <summary><span>Куда написать по Ded Clicker и Crystal Collector 3D?</span><i aria-hidden="true">+</i></summary>
-        <div class="faq-answer"><p>По вопросам Ded Clicker и Crystal Collector 3D используйте почту студии:</p><div class="faq-mail-actions"><div class="email-actions"><a class="email-address-button email-address-ded-crystal" href="mailto:ded346123@gmail.com" aria-label="Написать на адрес ded346123@gmail.com">ded346123@gmail.com</a><a class="gmail-compose-button gmail-compose-ded-crystal" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=ded346123@gmail.com" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 6.5 12 13l8.5-6.5"/><path d="M4.5 5.5h15a1.5 1.5 0 0 1 1.5 1.5v10a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17V7a1.5 1.5 0 0 1 1.5-1.5Z"/></svg><span>Написать в Gmail</span><span class="gmail-external" aria-hidden="true">↗</span></a></div><button class="faq-copy-button" type="button" data-copy="ded346123@gmail.com" aria-label="Скопировать адрес ded346123@gmail.com" title="Скопировать адрес"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><path d="M14 2v6h6M8 13h8M8 17h8"></path></svg></button></div></div>
+        <div class="faq-answer"><p>По вопросам Ded Clicker и Crystal Collector 3D используйте почту студии:</p><div class="faq-mail-actions"><div class="email-actions"><a class="email-address-button email-address-ded-crystal" href="mailto:ded346123@gmail.com" aria-label="Написать на адрес ded346123@gmail.com">ded346123@gmail.com</a><a class="gmail-compose-button gmail-compose-ded-crystal" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=ded346123@gmail.com" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 6.5 12 13l8.5-6.5"/><path d="M4.5 5.5h15a1.5 1.5 0 0 1 1.5 1.5v10a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17V7a1.5 1.5 0 0 1 1.5-1.5Z"/></svg><span>Написать в Gmail</span><span class="gmail-external" aria-hidden="true">↗</span></a><button class="faq-copy-button" type="button" data-copy="ded346123@gmail.com" aria-label="Скопировать адрес ded346123@gmail.com" title="Скопировать адрес"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><path d="M14 2v6h6M8 13h8M8 17h8"></path></svg></button></div></div>
       </details>
       <details class="faq-item">
         <summary><span>Как связаться по SandMode?</span><i aria-hidden="true">+</i></summary>
-        <div class="faq-answer"><p>Для обращений по SandMode используйте отдельную почту:</p><div class="faq-mail-actions"><div class="email-actions"><a class="email-address-button email-address-sandmode" href="mailto:sandmodeplay@gmail.com" aria-label="Написать на адрес sandmodeplay@gmail.com">sandmodeplay@gmail.com</a><a class="gmail-compose-button gmail-compose-sandmode" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=sandmodeplay@gmail.com" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 6.5 12 13l8.5-6.5"/><path d="M4.5 5.5h15a1.5 1.5 0 0 1 1.5 1.5v10a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17V7a1.5 1.5 0 0 1 1.5-1.5Z"/></svg><span>Написать в Gmail</span><span class="gmail-external" aria-hidden="true">↗</span></a></div><button class="faq-copy-button" type="button" data-copy="sandmodeplay@gmail.com" aria-label="Скопировать адрес sandmodeplay@gmail.com" title="Скопировать адрес"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><path d="M14 2v6h6M8 13h8M8 17h8"></path></svg></button></div></div>
+        <div class="faq-answer"><p>Для обращений по SandMode используйте отдельную почту:</p><div class="faq-mail-actions"><div class="email-actions"><a class="email-address-button email-address-sandmode" href="mailto:sandmodeplay@gmail.com" aria-label="Написать на адрес sandmodeplay@gmail.com">sandmodeplay@gmail.com</a><a class="gmail-compose-button gmail-compose-sandmode" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=sandmodeplay@gmail.com" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 6.5 12 13l8.5-6.5"/><path d="M4.5 5.5h15a1.5 1.5 0 0 1 1.5 1.5v10a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17V7a1.5 1.5 0 0 1 1.5-1.5Z"/></svg><span>Написать в Gmail</span><span class="gmail-external" aria-hidden="true">↗</span></a><button class="faq-copy-button" type="button" data-copy="sandmodeplay@gmail.com" aria-label="Скопировать адрес sandmodeplay@gmail.com" title="Скопировать адрес"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><path d="M14 2v6h6M8 13h8M8 17h8"></path></svg></button></div></div>
       </details>
       <details class="faq-item">
         <summary><span>Можно ли предложить идею или обсудить сотрудничество?</span><i aria-hidden="true">+</i></summary>
@@ -298,14 +390,41 @@
 <script>
     const toggle = document.getElementById('menuToggle');
     const nav = document.getElementById('navlinks');
+    const setMobileMenu = (open, returnFocus = false) => {
+      nav.classList.toggle('open', open);
+      toggle.setAttribute('aria-expanded', String(open));
+      toggle.setAttribute('aria-label', open ? 'Закрыть меню' : 'Открыть меню');
+      if (!open && returnFocus) toggle.focus();
+    };
+
     toggle.addEventListener('click', () => {
-      const isOpen = nav.classList.toggle('open');
-      toggle.setAttribute('aria-expanded', String(isOpen));
-      toggle.setAttribute('aria-label', isOpen ? 'Закрыть меню' : 'Открыть меню');
+      setMobileMenu(!nav.classList.contains('open'));
     });
+
+    // Close the mobile navigation after choosing a destination.
     nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
-      nav.classList.remove('open'); toggle.setAttribute('aria-expanded', 'false'); toggle.setAttribute('aria-label', 'Открыть меню');
+      setMobileMenu(false);
     }));
+
+    // Close on Escape and return keyboard focus to the menu button.
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && nav.classList.contains('open')) {
+        setMobileMenu(false, true);
+      }
+    });
+
+    // Close when the user taps or clicks anywhere outside the navigation and its button.
+    document.addEventListener('pointerdown', event => {
+      if (nav.classList.contains('open') &&
+          !nav.contains(event.target) && !toggle.contains(event.target)) {
+        setMobileMenu(false);
+      }
+    });
+
+    // Never leave the mobile menu open when switching back to the desktop layout.
+    window.matchMedia('(min-width: 921px)').addEventListener('change', event => {
+      if (event.matches) setMobileMenu(false);
+    });
     const revealObserver = new IntersectionObserver(entries => entries.forEach(entry => {
       if (entry.isIntersecting) { entry.target.classList.add('visible'); revealObserver.unobserve(entry.target); }
     }), {threshold: .12});
@@ -332,10 +451,10 @@
         toastTimer = window.setTimeout(() => toast.classList.remove('show'), 2600);
       };
 
-      // Countdown uses the visitor's local timezone and the published calendar date.
+      // Countdown targets 17:00 Moscow time (UTC+3), independent of the visitor's timezone.
       const countdown = byId('releaseCountdown');
       if (countdown) {
-        const target = new Date(2026, 11, 29, 0, 0, 0, 0);
+        const target = new Date(Date.UTC(2026, 11, 29, 14, 0, 0));
         const fields = {
           days: byId('countdownDays'), hours: byId('countdownHours'),
           minutes: byId('countdownMinutes'), seconds: byId('countdownSeconds')
@@ -344,9 +463,9 @@
           const remaining = target.getTime() - Date.now();
           if (remaining <= 0) {
             countdown.classList.add('countdown-arrived');
-            countdown.querySelector('.countdown-intro').textContent = 'Наступила запланированная дата выхода';
+            countdown.querySelector('.countdown-intro').textContent = 'Наступило время запланированного релиза';
             countdown.querySelector('.countdown-units').hidden = true;
-            byId('countdownNote').textContent = 'Следите за новостями проекта';
+            byId('countdownNote').textContent = '29 декабря 2026 года · 17:00 МСК';
             return;
           }
           const total = Math.floor(remaining / 1000);
@@ -413,5 +532,16 @@
     })();
 
   </script>
+<script>
+  document.querySelectorAll('.dedclicker-feature .dedclicker-cover-shot, .dedclicker-feature .dedclicker-gallery figure a').forEach((link) => {
+    const image = link.querySelector('img');
+    const fallback = link.querySelector('.dedclicker-image-fallback');
+    if (!image || !fallback) return;
+    image.addEventListener('error', () => {
+      image.hidden = true;
+      fallback.hidden = false;
+    }, { once: true });
+  });
+</script>
 </body>
 </html>
